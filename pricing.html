@@ -2,22 +2,44 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles/html5reset.css" media="all">
+    <link rel="stylesheet" href="styles/responsivegridsystem.css" media="all">
+    <link rel="stylesheet" href="styles/col.css" media="all">
+    <link rel="stylesheet" type="text/css" href="styles/10cols.css">
+    <link rel="stylesheet" type="text/css" href="styles/4cols.css">
+    <link rel="stylesheet" type="text/css" href="styles/2cols.css">
+    <link rel="stylesheet" type="text/css" href="styles/my-styles.css">
     <title>Straight To The Point Archery</title>
 </head>
 <body>
     <header>
-        <ul>
-            <li><img src="images/logo.jpg" alt="logo"></li>
-            <li><h1>Straight To The Point Archery</h1></li>
-        </ul>
+        <div class="section group">
+            <div class="col span_1_of_10">
+                <img src="images/logo.jpg" alt="logo">
+            </div>
+            <div class="col span_9_of_10">
+                Straignt To The Point Archery
+                <!-- <h1>Straight To The Point Archery</h1> -->
+            </div>
+        </div>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="#">Schedule</a>
-            <a href="#">Contact</a>
-            <a href="#">About</a>
+            <div class="section group">
+                <div class="col span_1_of_4">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="col span_1_of_4">
+                    <a href="#">Schedule</a>
+                </div>
+                <div class="col span_1_of_4">
+                    <a href="#">Contact</a>
+                </div>
+                <div class="col span_1_of_4">
+                    <a href="#">About</a>
+                </div>
+            </div>
         </nav>
     </header>
-    <article>
+    <!-- <article>
         <h2>Group Class Pricing</h2>
         <h3>A101 Basic Archery</h3>
         <p>A101 is a basic archery course that focuses on beginning archery safety, skills, and drills. Participants learn about archery form, range rules and etiquette. Form training and fun games are introduced in this class.</p>
@@ -68,15 +90,15 @@
         <ul>
             <li>Price: $20</li>
         </ul>
-    </article>
+    </article> -->
     <footer>      
         <address>
-            <ul>
-                <li>(253)555-1010</li>
-                <li><a href="archery-education@example.com">contact us</a></li>
-                <li>528 Nock Point Ln Tacoma, WA 98412</li>            
-                <li>copyright 2014</li>
-            </ul>
+            <div class="group section">
+                <div class="col span_1_of_4">(253)555-1010</div>
+                <div class="col span_1_of_4"><a href="archery-education@example.com">contact us</a></div>
+                <div class="col span_1_of_4">528 Nock Point Ln Tacoma, WA 98412</div>
+                <div class="col span_1_of_4">copyright 2014</div>
+            </div>
         </address>
     </footer>
 </body>
