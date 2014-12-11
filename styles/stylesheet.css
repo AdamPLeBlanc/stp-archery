@@ -25,6 +25,12 @@ header img{
     width: 60px;
     height: 60px;
 }
+
+.col img{
+    height: 30%;
+    width: 30%;
+}
+
 .instructor-box {
     margin: 10px 20px 10px 100px;
     clear: both;
