@@ -41,12 +41,12 @@ article h3 {
     font-size: 20px;
     font-weight: 300;
 }
-<<<<<<< HEAD
 .instruction-video {
     width: 200px;
     text-align: left;
     margin: 20px 20px;
-=======
+}
+
 article li{
     text-align: left;
 }
@@ -60,6 +60,5 @@ div[class^='col']:last-child {padding-right: 0;}
 
 }
 footer {
-    
->>>>>>> al-work
+
 }
