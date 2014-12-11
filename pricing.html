@@ -2,20 +2,32 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles/html5reset.css" media="all">
+    <link rel="stylesheet" href="styles/responsivegridsystem.css" media="all">
+    <link rel="stylesheet" href="styles/col.css" media="all">
+    <link rel="stylesheet" type="text/css" href="styles/10cols.css">
+    <link rel="stylesheet" type="text/css" href="styles/4cols.css">
+    <link rel="stylesheet" type="text/css" href="styles/2cols.css">
+    <link rel="stylesheet" href="styles/12cols.css" media="all">
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="styles/pricing-styles.css">
     <title>Straight To The Point Archery</title>
 </head>
 <body>
     <header>
-        <ul>
-            <li><img src="images/logo.jpg" alt="logo"></li>
-            <li><h1>Straight To The Point Archery</h1></li>
-        </ul>
+        <div>
+            <img src="images/logo.jpg"/>
+            <h1>Straight to the Point Archery</h1>
+        </div>            
         <nav>
-            <a href="index.html">Home</a>
-            <a href="#">Schedule</a>
-            <a href="#">Contact</a>
-            <a href="#">About</a>
-        </nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="">Classes</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="">About</a></li>                  
+            </ul>
+        </nav>        
     </header>
     <article>
         <h2>Group Class Pricing</h2>
@@ -68,15 +80,15 @@
         <ul>
             <li>Price: $20</li>
         </ul>
-    </article>
+    </article> 
     <footer>      
         <address>
-            <ul>
-                <li>(253)555-1010</li>
-                <li><a href="archery-education@example.com">contact us</a></li>
-                <li>528 Nock Point Ln Tacoma, WA 98412</li>            
-                <li>copyright 2014</li>
-            </ul>
+            <div class="group section">
+                <div class="col span_1_of_4">(253)555-1010</div>
+                <div class="col span_1_of_4"><a href="archery-education@example.com">contact us</a></div>
+                <div class="col span_1_of_4">528 Nock Point Ln Tacoma, WA 98412</div>
+                <div class="col span_1_of_4">copyright 2014</div>
+            </div>
         </address>
     </footer>
 </body>

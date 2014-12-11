@@ -1,3 +1,5 @@
+* {margin: 0; padding: 0;}
+
 *{
     font-family: 'Oxygen', sans-serif;   
     color: black;
@@ -17,6 +19,7 @@ header li {
 header nav {
     height: 30px;
     width: 100%;
+    font-size: 2em;
 }
 header img{
     width: 60px;
@@ -29,8 +32,7 @@ header img{
 }
 article {
     margin: 10px 20px 10px 200px; 
-    width: 900px;
-    
+    width: 900px;       
 }
 article p {
    text-align: left; 
@@ -39,8 +41,25 @@ article h3 {
     font-size: 20px;
     font-weight: 300;
 }
+<<<<<<< HEAD
 .instruction-video {
     width: 200px;
     text-align: left;
     margin: 20px 20px;
+=======
+article li{
+    text-align: left;
+}
+
+div.row {width: 90%; margin: auto;}
+div.row:after {content: ""; display: table; clear: both;}
+
+div[class^='col'] {float: left;}
+
+div[class^='col']:last-child {padding-right: 0;}
+
+}
+footer {
+    
+>>>>>>> al-work
 }
