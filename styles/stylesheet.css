@@ -27,16 +27,17 @@ header img{
     clear: both;
     width: 800px;
 }
-.instructor-box img {
-    float: left;
-    width: 25%;
-    height: 25%;
-    margin-right: 20px;
-    
-}
 article {
     margin: 10px 20px 10px 200px; 
     width: 900px;
+    
+}
+article p {
+   text-align: left; 
+}
+article h3 {
+    font-size: 20px;
+    font-weight: 300;
 }
 footer {
     
